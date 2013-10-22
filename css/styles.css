@@ -1,0 +1,49 @@
+/* Stylesheet */
+
+h1{
+	font-size:32px;
+ 	color:#505957;
+		}
+
+body{
+	background-color: #C1D9D4; 
+	font-size:16px;
+}
+
+
+h3{
+	color:#6F7D7A;
+	padding:5px; 
+}
+
+.sidebarsection {
+	text-align:center; 
+	}
+
+#content ul{
+	list-style-type:bullet;
+	margin:10px;
+	padding:5px;
+	width:600px; 
+}
+#subHeader li {
+  display:inline;
+    
+}
+
+#subHeader li a {
+  width:25%; 
+  text-decoration:none;
+  padding:5px 0;
+  background:#976D70;
+  color:#eee;
+  float:left;
+  text-align:center; 
+  font-weight: bold; 
+}
+
+
+#footer {
+	font-size:9px;
+}
+

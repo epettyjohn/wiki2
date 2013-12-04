@@ -1,17 +1,21 @@
 /* Stylesheet */
 
-h1{
-	font-size:32px;
+#logo h1{
+	font-size:2em;
  	color:#505957;
-		}
+	position: absolute; 
+}
 
 body{
 	background-color: #C1D9D4; 
-	font-size:16px;
+	max-width: 95%
 }
 
+img {
+	max-width: 100%; 
+}
 
-h3{
+h2{
 	color:#6F7D7A;
 	padding:5px; 
 }
@@ -24,26 +28,90 @@ h3{
 	list-style-type:bullet;
 	margin:10px;
 	padding:5px;
-	width:600px; 
+	width:52%; 
+	  
 }
 #subHeader li {
-  display:inline;
-    
-}
+  display: inline; 
+  }
 
 #subHeader li a {
-  width:25%; 
+  width:100%; 
   text-decoration:none;
-  padding:5px 0;
   background:#976D70;
   color:#eee;
+  padding: 10px 20px; 
+  margin: 10px; 
   float:left;
   text-align:center; 
   font-weight: bold; 
 }
 
-
-#footer {
-	font-size:9px;
+#subHeader li a:hover {
+	background: white; 
 }
 
+#footer {
+	font-size:0.563em;
+}
+
+/*media queries*/
+
+/* Larger ----------- */
+@media screen and (max-width: 1024px) {
+
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+title {
+	width: 100%; 
+}
+
+#subHeader{
+	width: 100%;
+}
+#subHeader ul {
+	margin: 0;
+}
+
+#subHeader ul li {
+	float: left;
+	margin: 5% 0 0 0;
+	}
+	
+}
+
+
+
+
+/* Smaller ----------- */
+@media screen and (max-width : 650px) {
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+
+}
+#subHeader ul {
+	margin: 5% 0;
+}
+
+#subHeader ul li {
+	float: left;
+	margin: 5% 0;
+	}
+	
